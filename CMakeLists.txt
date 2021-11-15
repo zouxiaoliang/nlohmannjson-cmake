@@ -9,6 +9,8 @@ project(thirdparty_libnjson LANGUAGES C CXX)
 message(STATUS "toolchain: ${CMAKE_SYSROOT}")
 message(STATUS "cpu arch: ${CMAKE_SYSTEM_PROCESSOR}")
 
+set(HAS_THIRDPARTY_NJSON ON PARENT_SCOPE)
+
 function(libnjsonMain)
     set(library_root "${CMAKE_CURRENT_SOURCE_DIR}/json")
     message(STATUS "njson root path: ${library_root}")
