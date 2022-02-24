@@ -4,7 +4,7 @@
 #
 
 cmake_minimum_required(VERSION 3.19)
-project(thirdparty_libnjson LANGUAGES C CXX)
+project(libnjson-cmake LANGUAGES C CXX)
 
 message(STATUS "toolchain: ${CMAKE_SYSROOT}")
 message(STATUS "cpu arch: ${CMAKE_SYSTEM_PROCESSOR}")
